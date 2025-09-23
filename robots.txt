@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Sitemap: https://phonerbazar.shop/sitemap.xml
+
+# Block unwanted bots (optional)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

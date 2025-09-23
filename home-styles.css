@@ -1,0 +1,96 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+header {
+  transition: background-color 0.3s ease;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#mobileMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 250px;
+  border-radius: 0 0 8px 8px;
+}
+
+#searchInput {
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+#categoryMenu {
+  transition: all 0.3s ease;
+}
+
+/* Hero Section */
+#home {
+  background: linear-gradient(135deg, #e0f7fa 0%, #ffffff 100%);
+  transition: background 0.3s ease;
+}
+
+#home.dark {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+}
+
+/* Products Section */
+#products .product {
+  transition: all 0.3s ease;
+}
+
+#products .product img {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+#products .product:hover img {
+  transform: scale(1.05);
+}
+
+.product a {
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Trust Section */
+.bg-blue-50 {
+  transition: background-color 0.3s ease;
+}
+
+/* Footer */
+footer {
+  transition: background 0.3s ease;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #products .grid {
+    grid-template-columns: 1fr;
+  }
+
+  #mobileMenu {
+    width: 200px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #products .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

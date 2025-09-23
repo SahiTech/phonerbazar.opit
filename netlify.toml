@@ -1,0 +1,23 @@
+[build]
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/samsung-guru-music-2"
+  to = "/products/samsung-guru-music-2.html"
+  status = 200
+
+[[redirects]]
+  from = "/nokia-5310"
+  to = "/products/nokia-5310.html"
+  status = 200
+
+[[redirects]]
+  from = "/nokia-3210"
+  to = "/products/nokia-3210.html"
+  status = 200
+
+[[redirects]]
+  from = "/nokia-2720-flip"
+  to = "/products/nokia-2720-flip.html"
+  status = 200

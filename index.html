@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="bn" class="transition-colors duration-300">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PhonerBazar - বাংলাদেশে মোবাইল ফোন ও গ্যাজেট কিনুন। ১০০% জেনুইন প্রোডাক্ট, সেরা দামে।" />
+  <meta name="keywords" content="PhonerBazar, মোবাইল ফোন, Nokia 3310, Samsung, অরিজিনাল মোবাইল, গ্যাজেট" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="HhlwjvTasoTfKc_3gHTSFlGK-mUuq1BkGbt9ikrEOpQ" />
+
+  <title>PhonerBazar - অরিজিনাল মোবাইল ফোন</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/android-chrome-512x512.png">
+
+  <!-- Preconnect / Preload for Performance -->
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preload" as="image" href="images/hero.webp">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="PhonerBazar - অরিজিনাল মোবাইল ফোন">
+  <meta property="og:description" content="১০০% জেনুইন মোবাইল ফোন ও গ্যাজেট, সেরা দামে।">
+  <meta property="og:image" content="images/og-image.webp">
+  <meta property="og:url" content="https://phonerbazar.shop/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@PhonerBazar">
+
+  <!-- Google Analytics -->
+  <script defer src="https://www.googletagmanager.com/gtag/js?id=G-HYLC2454F7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-HYLC2454F7');
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script defer>
+    !function(f,b,e,v,n,t,s) {
+      if(f.fbq)return; n=f.fbq=function(){n.callMethod ?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n; n.push=n; n.loaded=!0; n.version='2.0';
+      n.queue=[]; t=b.createElement(e); t.async=!0;
+      t.src=v; s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '2040714466673633', { external_id: 'TEST14074' });
+      fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=2040714466673633&ev=PageView&noscript=1"/>
+  </noscript>
+
+  <!-- TailwindCSS (অপরিবর্তিত রাখা হয়েছে) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="home-styles.css?v=1.0">
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+  <!-- Manifest & Service Worker -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#000000">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(() => console.log('✅ Service Worker registered'))
+        .catch(err => console.error('❌ SW failed:', err));
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans transition-colors duration-300 scroll-smooth">
+  <!-- Facebook Pixel (noscript) -->
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=2040714466673633&ev=PageView&noscript=1"/>
+  </noscript>
+
+  <!-- Navbar -->
+  <header id="header" class="sticky top-0 bg-white dark:bg-gray-800 shadow-md z-50">
+    <nav class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-blue-600 dark:text-yellow-400">
+        <a href="#home" aria-label="PhonerBazar হোমপেজ">PhonerBazar</a>
+      </h1>
+      <ul class="hidden md:flex gap-4 font-medium">
+        <li><a href="#home" class="hover:text-blue-600 dark:hover:text-yellow-400">হোম</a></li>
+        <li><a href="#products" class="hover:text-blue-600 dark:hover:text-yellow-400">প্রোডাক্ট</a></li>
+        <li><a href="/contact" class="hover:text-blue-600 dark:hover:text-yellow-400">যোগাযোগ</a></li>
+        <li><a href="/return-policy" class="hover:text-blue-600 dark:hover:text-yellow-400">রিফান্ড নীতি</a></li>
+        <li><a href="/privacy-policy" class="hover:text-blue-600 dark:hover:text-yellow-400">প্রাইভেসি</a></li>
+      </ul>
+      <button type="button" id="darkToggle" class="text-2xl" aria-label="টগল ডার্ক মোড">🌙</button>
+      <button type="button" id="menuBtn" class="md:hidden text-2xl" aria-label="মোবাইল মেনু টগল">☰</button>
+    </nav>
+    <!-- Mobile Sidebar Menu -->
+    <div id="mobileMenu" class="hidden bg-white dark:bg-gray-800 shadow-md md:hidden">
+      <div class="p-4">
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="প্রোডাক্ট খুঁজুন..."
+          class="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white"
+          aria-label="প্রোডাক্ট অনুসন্ধান"
+          aria-autocomplete="list"
+          autocomplete="off"
+        >
+        <ul id="suggestionBox" class="hidden max-h-40 overflow-y-auto border border-gray-300 dark:border-gray-600 rounded-lg shadow-md mb-4 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-100 divide-y divide-gray-200 dark:divide-gray-600"></ul>
+        <p id="noResult" class="hidden text-red-500 text-sm mb-4">কোনো প্রোডাক্ট পাওয়া যায়নি।</p>
+        <ul class="flex flex-col gap-4 text-center font-medium">
+          <li><a href="#home" class="hover:text-blue-600 dark:hover:text-yellow-400">হোম</a></li>
+          <li><a href="#products" class="hover:text-blue-600 dark:hover:text-yellow-400">প্রোডাক্ট</a></li>
+          <li class="relative">
+            <button type="button" id="categoryBtn" class="w-full flex justify-between items-center hover:text-blue-600 dark:hover:text-yellow-400" aria-label="প্রোডাক্ট ক্যাটাগরি টগল">
+              প্রোডাক্ট ক্যাটাগরি <span id="arrow" class="text-lg">▼</span>
+            </button>
+            <ul id="categoryMenu" class="hidden flex flex-col gap-2 mt-2 bg-gray-100 dark:bg-gray-700 p-3 rounded-lg shadow-inner text-left">
+              <li><a href="#products" class="block px-2 py-1 hover:text-blue-600 dark:hover:text-yellow-400">মোবাইল ফোন</a></li>
+              <li><a href="#products" class="block px-2 py-1 hover:text-blue-600 dark:hover:text-yellow-400">ঘড়ি</a></li>
+              <li><a href="#products" class="block px-2 py-1 hover:text-blue-600 dark:hover:text-yellow-400">ইয়ারফোন</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <h2 class="text-4xl md:text-5xl font-extrabold mb-6 text-gray-800 dark:text-gray-100">
+      স্বাগতম <span class="text-blue-600 dark:text-yellow-400">PhonerBazar</span> 🚀
+    </h2>
+    <p class="max-w-xl text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-8">
+      আমরা বিক্রি করি মোবাইল ফোন ও গ্যাজেট – ১০০% জেনুইন প্রোডাক্ট, সেরা দামে।
+    </p>
+    <a href="#products" class="px-6 py-3 bg-blue-600 dark:bg-yellow-500 text-white dark:text-black rounded-full hover:bg-blue-700 dark:hover:bg-yellow-600 transition">প্রোডাক্ট দেখুন</a>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="py-16 bg-white dark:bg-gray-900">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-8 text-gray-800 dark:text-gray-100">আমাদের প্রোডাক্ট</h3>
+      <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        <div class="product bg-gray-50 dark:bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition" data-name="Nokia 5310" itemscope itemtype="http://schema.org/Product">
+          <img src="images/nokia-5310.webp" alt="Nokia 5310 মিউজিক ফোন" class="rounded-lg mb-4" loading="lazy" width="300" height="200" itemprop="image">
+          <h4 class="text-lg sm:text-xl font-semibold mb-2" itemprop="name">Nokia 5310</h4>
+          <p class="text-gray-600 dark:text-gray-300 mb-3 text-sm sm:text-base" itemprop="description">স্টাইলিশ ও ক্লাসিক মিউজিক ফোন</p>
+          <p class="text-blue-600 dark:text-yellow-400 font-semibold mb-3">৳৩,৫০০</p>
+          <meta itemprop="brand" content="Nokia">
+          <meta itemprop="sku" content="N5310">
+          <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="BDT">
+            <meta itemprop="price" content="3500">
+            <meta itemprop="availability" content="http://schema.org/InStock">
+          </div>
+          <a href="/products/nokia-5310" class="px-6 py-3 bg-blue-600 dark:bg-yellow-500 text-white dark:text-black rounded-lg hover:bg-blue-700 dark:hover:bg-yellow-600" itemprop="url">বিস্তারিত</a>
+        </div>
+        <div class="product bg-gray-50 dark:bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition" data-name="Nokia 3210" itemscope itemtype="http://schema.org/Product">
+          <img src="images/nokia-3210.webp" alt="Nokia 3210 ক্লাসিক ফোন" class="rounded-lg mb-4" loading="lazy" width="300" height="200" itemprop="image">
+          <h4 class="text-lg sm:text-xl font-semibold mb-2" itemprop="name">Nokia 3210</h4>
+          <p class="text-gray-600 dark:text-gray-300 mb-3 text-sm sm:text-base" itemprop="description">ক্লাসিক ও রিলায়েবল ফোন</p>
+          <p class="text-blue-600 dark:text-yellow-400 font-semibold mb-3">৳৩,০০০</p>
+          <meta itemprop="brand" content="Nokia">
+          <meta itemprop="sku" content="N3210">
+          <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="BDT">
+            <meta itemprop="price" content="3000">
+            <meta itemprop="availability" content="http://schema.org/InStock">
+          </div>
+          <a href="/products/nokia-3210" class="px-6 py-3 bg-blue-600 dark:bg-yellow-500 text-white dark:text-black rounded-lg hover:bg-blue-700 dark:hover:bg-yellow-600" itemprop="url">বিস্তারিত</a>
+        </div>
+        <div class="product bg-gray-50 dark:bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition" data-name="Nokia 3310" itemscope itemtype="http://schema.org/Product">
+          <img src="images/nokia-3310.webp" alt="Nokia 3310 ক্লাসিক ফোন" class="rounded-lg mb-4" loading="lazy" width="300" height="200" itemprop="image">
+          <h4 class="text-lg sm:text-xl font-semibold mb-2" itemprop="name">Nokia 3310</h4>
+          <p class="text-gray-600 dark:text-gray-300 mb-3 text-sm sm:text-base" itemprop="description">ক্লাসিক ও রিলায়েবল ফোন</p>
+          <p class="text-blue-600 dark:text-yellow-400 font-semibold mb-3">৳৪,০০০</p>
+          <meta itemprop="brand" content="Nokia">
+          <meta itemprop="sku" content="N3310">
+          <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="BDT">
+            <meta itemprop="price" content="4000">
+            <meta itemprop="availability" content="http://schema.org/InStock">
+          </div>
+          <a href="/products/nokia-3310" class="px-6 py-3 bg-blue-600 dark:bg-yellow-500 text-white dark:text-black rounded-lg hover:bg-blue-700 dark:hover:bg-yellow-600" itemprop="url">বিস্তারিত</a>
+        </div>
+        <div class="product bg-gray-50 dark:bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition" data-name="Nokia 2720 Flip" itemscope itemtype="http://schema.org/Product">
+          <img src="images/nokia-2720.webp" alt="Nokia 2720 Flip ফোন" class="rounded-lg mb-4" loading="lazy" width="300" height="200" itemprop="image">
+          <h4 class="text-lg sm:text-xl font-semibold mb-2" itemprop="name">Nokia 2720 Flip</h4>
+          <p class="text-gray-600 dark:text-gray-300 mb-3 text-sm sm:text-base" itemprop="description">স্টাইলিশ ও ক্লাসিক ফোন</p>
+          <p class="text-blue-600 dark:text-yellow-400 font-semibold mb-3">৳৬,০০০</p>
+          <meta itemprop="brand" content="Nokia">
+          <meta itemprop="sku" content="N2720">
+          <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="BDT">
+            <meta itemprop="price" content="6000">
+            <meta itemprop="availability" content="http://schema.org/InStock">
+          </div>
+          <a href="/products/nokia-2720-flip" class="px-6 py-3 bg-blue-600 dark:bg-yellow-500 text-white dark:text-black rounded-lg hover:bg-blue-700 dark:hover:bg-yellow-600" itemprop="url">বিস্তারিত</a>
+        </div>
+        <div class="product bg-gray-50 dark:bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition" data-name="Samsung Guru Music 2" itemscope itemtype="http://schema.org/Product">
+          <img src="images/samsung-removebg.webp" alt="Samsung Guru Music 2 ফোন" class="rounded-lg mb-4" loading="lazy" width="300" height="200" itemprop="image">
+          <h4 class="text-lg sm:text-xl font-semibold mb-2" itemprop="name">Samsung Guru Music 2</h4>
+          <p class="text-gray-600 dark:text-gray-300 mb-3 text-sm sm:text-base" itemprop="description">সহজ ব্যবহার, নিখুঁত সাউন্ড</p>
+          <p class="text-blue-600 dark:text-yellow-400 font-semibold mb-3">৳২,৫০০</p>
+          <meta itemprop="brand" content="Samsung">
+          <meta itemprop="sku" content="SGM2">
+          <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="BDT">
+            <meta itemprop="price" content="2500">
+            <meta itemprop="availability" content="http://schema.org/InStock">
+          </div>
+          <a href="/products/samsung-guru-music-2" class="px-6 py-3 bg-blue-600 dark:bg-yellow-500 text-white dark:text-black rounded-lg hover:bg-blue-700 dark:hover:bg-yellow-600" itemprop="url">বিস্তারিত</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust / Offer Section -->
+  <section class="bg-blue-50 dark:bg-gray-800 py-10 border-t border-gray-200 dark:border-gray-700">
+    <div class="container mx-auto px-4 grid gap-6 sm:grid-cols-2 md:grid-cols-4 text-center">
+      <div class="flex flex-col items-center">
+        <span class="text-3xl mb-2">🚚</span>
+        <h4 class="font-bold text-lg">ফ্রি ডেলিভারি</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">ঢাকা শহরের মধ্যে ফ্রি হোম ডেলিভারি</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="text-3xl mb-2">✅</span>
+        <h4 class="font-bold text-lg">১০০% অরিজিনাল</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">সব প্রোডাক্ট কোম্পানি অথরাইজড</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="text-3xl mb-2">💳</span>
+        <h4 class="font-bold text-lg">ক্যাশ অন ডেলিভারি</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">প্রোডাক্ট হাতে পেয়ে টাকা দিন</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="text-3xl mb-2">📞</span>
+        <h4 class="font-bold text-lg">২৪/৭ সাপোর্ট</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">যে কোন সময় যোগাযোগ করুন</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-gradient-to-r from-blue-700 to-blue-900 dark:from-gray-800 dark:to-gray-900 text-white text-center">
+    <h2 class="text-2xl font-bold mb-4">
+      <a href="#header" class="hover:text-yellow-300 scroll-to-top" aria-label="উপরে হেডারে ফিরুন">PhonerBazar</a>
+    </h2>
+    <p class="mb-4 text-blue-100 dark:text-gray-300">অরিজিনাল মোবাইল ফোন ও গ্যাজেট – আপনার বিশ্বস্ত অনলাইন শপ</p>
+    <ul class="flex flex-col md:flex-row justify-center gap-4 mb-4">
+      <li><a href="/privacy-policy" class="hover:text-yellow-300">প্রাইভেসি পলিসি</a></li>
+      <li><a href="/return-policy" class="hover:text-yellow-300">হ্যাপি রিটার্ন ও রিফান্ড পলিসি</a></li>
+      <li><a href="/contact" class="hover:text-yellow-300">যোগাযোগ ও অভিযোগ ফর্ম</a></li>
+    </ul>
+    <p class="text-xs text-blue-200 dark:text-gray-400">
+      © ২০২৫ <a href="#header" class="hover:text-yellow-300 scroll-to-top">PhonerBazar.Shop</a> | ডেভেলপ করেছে <a href="https://sahitech.github.io/home/" target="_blank" class="hover:text-yellow-300">SahiTech</a>
+    </p>
+  </footer>
+
+  <script defer src="home-script.js?v=1.0"></script>
+</body>
+</html>
