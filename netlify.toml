@@ -21,3 +21,18 @@
   from = "/nokia-2720-flip"
   to = "/products/nokia-2720-flip.html"
   status = 200
+
+[[redirects]]
+  from = "/contact-us"
+  to = "/contact-us.html"
+  status = 200
+
+[[redirects]]
+  from = "/return-policy"
+  to = "/return-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy-policy"
+  to = "/privacy-policy.html"
+  status = 200
