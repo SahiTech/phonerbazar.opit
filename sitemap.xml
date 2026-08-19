@@ -1,75 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-   <url>
-      <loc>https://phonerbazar.shop/</loc>
-      <lastmod>2025-09-21</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-      <image:image>
-         <image:loc>https://phonerbazar.shop/images/nokia-5310.webp</image:loc>
-         <image:caption>Nokia 5310 Mobile Phone</image:caption>
-      </image:image>
-      <image:image>
-         <image:loc>https://phonerbazar.shop/images/nokia-3210.webp</image:loc>
-         <image:caption>Nokia 3210 Mobile Phone</image:caption>
-      </image:image>
-      <image:image>
-         <image:loc>https://phonerbazar.shop/images/nokia-3310.webp</image:loc>
-         <image:caption>Nokia 3310 Mobile Phone</image:caption>
-      </image:image>
-      <image:image>
-         <image:loc>https://phonerbazar.shop/images/nokia-2720.webp</image:loc>
-         <image:caption>Nokia 2720 Flip Mobile Phone</image:caption>
-      </image:image>
-      <image:image>
-         <image:loc>https://phonerbazar.shop/images/samsung.webp</image:loc>
-         <image:caption>Samsung Guru Music 2 Mobile Phone</image:caption>
-      </image:image>
-   </url>
-
-   <url>
-      <loc>https://phonerbazar.shop/#products</loc>
-      <lastmod>2025-09-21</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-   </url>
-
-   <url>
-      <loc>https://phonerbazar.shop/nokia-5310.html</loc>
-      <lastmod>2025-09-21</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-
-   <url>
-      <loc>https://phonerbazar.shop/nokia-3210.html</loc>
-      <lastmod>2025-09-21</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-
-   <url>
-      <loc>https://phonerbazar.shop/nokia-3310.html</loc>
-      <lastmod>2025-09-21</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-
-   <url>
-      <loc>https://phonerbazar.shop/nokia-2720-flip.html</loc>
-      <lastmod>2025-09-21</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-
-   <url>
-      <loc>https://phonerbazar.shop/samsung-guru-music-2.html</loc>
-      <lastmod>2025-09-21</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.phonerbazar.shop/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://www.phonerbazar.shop/images/nokia-5310.webp</image:loc><image:caption>Nokia 5310 Mobile Phone</image:caption></image:image>
+    <image:image><image:loc>https://www.phonerbazar.shop/images/nokia-3210.webp</image:loc><image:caption>Nokia 3210 Mobile Phone</image:caption></image:image>
+    <image:image><image:loc>https://www.phonerbazar.shop/images/nokia-3310.webp</image:loc><image:caption>Nokia 3310 Mobile Phone</image:caption></image:image>
+    <image:image><image:loc>https://www.phonerbazar.shop/images/nokia-2720.webp</image:loc><image:caption>Nokia 2720 Flip Mobile Phone</image:caption></image:image>
+    <image:image><image:loc>https://www.phonerbazar.shop/images/samsung.webp</image:loc><image:caption>Samsung Guru Music 2 Mobile Phone</image:caption></image:image>
+  </url>
+  <url><loc>https://www.phonerbazar.shop/#products</loc><lastmod>2026-08-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.phonerbazar.shop/nokia-5310.html</loc><lastmod>2026-08-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.phonerbazar.shop/nokia-3210.html</loc><lastmod>2026-08-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.phonerbazar.shop/nokia-3310.html</loc><lastmod>2026-08-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.phonerbazar.shop/nokia-2720-flip.html</loc><lastmod>2026-08-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.phonerbazar.shop/samsung-guru-music-2.html</loc><lastmod>2026-08-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.phonerbazar.shop/contact-us</loc><lastmod>2026-08-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.phonerbazar.shop/return-policy</loc><lastmod>2026-08-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.phonerbazar.shop/privacy-policy</loc><lastmod>2026-08-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
